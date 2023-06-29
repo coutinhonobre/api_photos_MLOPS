@@ -1,0 +1,55 @@
+# .gitignore
+
+# Python
+*.py[cod]
+*.pyd
+*.pyo
+*.pyz
+__pycache__/
+*.egg-info/
+dist/
+build/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.so
+.pyc
+.pyo
+.pyd
+.cache/
+.include/
+.lib/
+*.bak
+*.swp
+*~
+*#
+.#*
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Docker
+.dockerignore
+.docker
+
+
+# macOS
+.DS_Store
